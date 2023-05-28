@@ -1,5 +1,9 @@
 from flask import Flask, request, jsonify
 
+@dataclass
+class Result:
+    result: int
+
 app = Flask(__name__)
 
 
